@@ -17,15 +17,32 @@ Tenative schedule of tasks/talks, subject to change/update.
 * 12 pm - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
 	* 12:15 pm - [Introduction to Web Mapping/GIS | Skanska](https://docs.google.com/presentation/d/1BG9Ms_9ZdgYtx4yf6928kxRnRncxOY6VvCruqRGQUM0/edit?usp=sharing)
 	* 12:40 pm - [Introduction to CARTO | Skanska](https://docs.google.com/presentation/d/1HgPzTxQJI5itQxpznHaBQ9reaKTgBi9MXDkYZQMPl7w/edit?usp=sharing)
-* 1 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
-	* 1:50 pm - short 10 minute break
-* 2 pm
-* 3 pm
-* 4 pm - Closing remarks and questions, brainstorming about next steps.
+* 1 pm - Shaking Hands with CARTO, a quick tour of the platform, 
+	* Maps/Datasets view, 
+	* Inside a CARTO Map 
+		* Layers
+			* Data
+			* Analysis
+			* Style
+			* Pop-Up
+			* Legend
+		* Widgets
+			* Category
+			* Histogram
+			* Formula
+			* Time-Series
+			
+	* 1:15 pm [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
+	* 1:50 - short 10 minute coffee break 
+* 2:00 pm - [Making a Skanska Markets Map](#skanska_markets)
+	* 2:30 pm - [Making a Second Ave Subway Map](#second_ave_subway)
+* 3:00 pm - [Making a Skanska NYC Projects Map](#nyc_projects)
+	* 3:45 pm - Questions, closing remarks and brainstorming about next steps/project ideas.
 
 If we move very quickly. Here are some **additional exercises** we can work on:
 
 * [Styling Maps: Vintage Map of Africa with CartoCSS](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/03-cartography/exercises/africa.md)
+* [Market Analysis (Dominos Pizza) Demo](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/02-builder-analysis/exercises/dominos.md)
 
 
 # CARTO Course Materials
