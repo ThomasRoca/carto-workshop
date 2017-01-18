@@ -7,14 +7,26 @@ You can also find the complete [training course below](#complete).
 
 * Course Materials: [https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska)
 
+### Requirements 
+* Laptop computer with Chrome installed as the browser connected to the internet.
+* A CARTO account. For those without an account you can [create a FREE account here](https://carto.com/signup/) and follow along. 
+
 ### Training Schedule
 Tenative schedule of tasks/talks, subject to change/update.
 
 * 12 pm - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
-* 1 pm - 
+	* 12:15 pm - [Introduction to Web Mapping/GIS | Skanska](https://docs.google.com/presentation/d/1BG9Ms_9ZdgYtx4yf6928kxRnRncxOY6VvCruqRGQUM0/edit?usp=sharing)
+	* 12:40 pm - [Introduction to CARTO | Skanska](https://docs.google.com/presentation/d/1HgPzTxQJI5itQxpznHaBQ9reaKTgBi9MXDkYZQMPl7w/edit?usp=sharing)
+* 1 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
+	* 1:50 pm - short 10 minute break
 * 2 pm
 * 3 pm
 * 4 pm - Closing remarks and questions, brainstorming about next steps.
+
+If we move very quickly. Here are some **additional exercises** we can work on:
+
+* [Styling Maps: Vintage Map of Africa with CartoCSS](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/03-cartography/exercises/africa.md)
+
 
 # CARTO Course Materials
 
@@ -58,8 +70,9 @@ Hex color: `#263F6C` _note may not be official hex value_
 ---
 
 #### Skanksa-specific Maps/Training
-* [Making a Skanska Markets Map](#skanska_markets_map)
+* [Making a Skanska Markets Map](#skanska_markets)
 * [Making a Second Ave Subway Map](#second_ave_subway)
+* [Making a Skanska NYC Projects Map](#nyc_projects)
 
 #### Skanksa Markets Map
 <a name="skanska_markets_map"></a>
@@ -76,7 +89,8 @@ Completed Map: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e
 
 ---
 
-
+#### Skanska NYC Projects Map
+<a name="nyc_projects"></a>
 
 <br>
 
