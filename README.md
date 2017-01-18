@@ -33,6 +33,18 @@ This advanced workshop will let users know the most powerful analytic capabiliti
 
 This session focuses on the advanced use of BUILDER, creating cartographic rules for powerful webmap visualizations. It also goes through our new tools for thematic mapping (TurboCARTO) and all the different options that Torque offers for creating dynamic maps.
 
+## More Resources
+
+#### Map Academy, tutorials and other online resources
+
+* [**Map Academy** courses](https://academy.cartodb.com/).
+* [**Tutorials**](https://docs.cartodb.com/tutorials/).
+* [Other online resources](https://github.com/ramiroaznar/intro-cartodb).
+
+#### Further questions and troubleshooting
+
+* Email to **support@carto.com**.
+* Some questions could be already answered at **[GIS Stack Exchange](http://gis.stackexchange.com/questions/tagged/carto)** `carto` tag.
 
 # Skanska-Specific Training Materials
 
