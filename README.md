@@ -16,8 +16,7 @@ Introduction to the training sessions, GIS and webmapping and general explanatio
 
 This course will cover different BUILDER (CARTO's web interface) workflows for generating cartographic data visualizations. We'll dig into new Builder features and some differences with old Editor. During this first part, we'll cover those aspects related to data visualizations, cartographic styles, legend's definition and dashboard creation with actionable Widgets that interact with the map.
 
-## [CARTO BUILDER II: Geospatial analysis and prediction
-](02-builder-analysis/). 
+## [CARTO BUILDER II: Geospatial analysis and prediction](02-builder-analysis/). 
 This advanced workshop will let users know the most powerful analytic capabilities of CARTO BUILDER. Analysis workflows and its link with Widgets will occupy the central part of the course, along with a review of the different analyses that BUILDER currently offers.
 
 ## [Cartography and advanced symbology](03-cartography/). 
