@@ -1,5 +1,5 @@
 CARTO | Skanska Training Course
-==============================
+============================
 
 You can also find the complete [training course below](#complete).
 
@@ -28,11 +28,43 @@ This advanced workshop will let users know the most powerful analytic capabiliti
 This session focuses on the advanced use of BUILDER, creating cartographic rules for powerful webmap visualizations. It also goes through our new tools for thematic mapping (TurboCARTO) and all the different options that Torque offers for creating dynamic maps.
 
 
+## Skanska-related Training
 
+#### Data: 
+[http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/](http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/)
+
+#### Style:
+
+Hex color: `#263F6C` _note may not be official hex value_
+
+---
+
+#### Skanksa-specific Maps/Training
+* [Making a Skanska Markets Map](#skanska_markets_map)
+* [Making a Second Ave Subway Map](#second_ave_subway)
+
+#### Skanksa Markets Map
+<a name="skanska_markets_map"></a>
+
+Completed Map: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/)
+
+* Setting up an html link to the market website in the **infoWindow**
+
+	<a href="{{website}}" target='_blank'>{{market}} website</a>
+
+
+#### Second Avenue Subway Map
+<a name="second_ave_subway"></a>
+
+---
+
+
+
+<br>
 
 
 CARTO complete Training Course
-==============================
+============================
 This link provides access to our full-week intensive training.
 
 ## [http://bit.ly/carto-workshop](http://bit.ly/carto-workshop)
