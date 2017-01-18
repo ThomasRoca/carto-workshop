@@ -8,6 +8,8 @@ You can also find the complete [training course below](#complete).
 * Course Materials: [https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska)
 
 
+# CARTO Course Materials
+
 ## [Introduction to CARTO](00-intro-carto/). 
 
 Introduction to the training sessions, GIS and webmapping and general explanation about CARTO as a platform: product positioning, general overview of the portfolio and examples of how CARTO can solve different use cases.
@@ -24,7 +26,7 @@ This advanced workshop will let users know the most powerful analytic capabiliti
 This session focuses on the advanced use of BUILDER, creating cartographic rules for powerful webmap visualizations. It also goes through our new tools for thematic mapping (TurboCARTO) and all the different options that Torque offers for creating dynamic maps.
 
 
-## Skanska-related Training
+# Skanska-Specific Training Materials
 
 #### Data: 
 [http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/](http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/)
