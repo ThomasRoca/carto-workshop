@@ -60,12 +60,7 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 
 # Skanska-Specific Training Materials
 
-#### Data: 
-[http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/](http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/)
 
-#### Style:
-
-Hex color: `#263F6C` _note may not be official hex value_
 
 ---
 
@@ -77,11 +72,32 @@ Hex color: `#263F6C` _note may not be official hex value_
 #### Skanksa Markets Map
 <a name="skanska_markets_map"></a>
 
-Completed Map: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/)
+1. Download the [Skanska Markets dataset](https://team.carto.com/u/sheehan-carto/tables/skanska_markets/public?redirected=true) as a CSV. This data is from [http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/](http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/).
 
-* Setting up an html link to the market website in the **infoWindow**
+2. Drag the file into your CARTO account **Data** view.
 
-	<a href="{{website}}" target='_blank'>{{market}} website</a>
+3. Change the **Basemap** to *Dark matter (labels below)*.
+
+4. Style the points to **Fill Size 12**, and with **Skanska** hex color: `#263F6C` (_note may not be official hex value_), and **Stroke Size 1.5 stroke** with **color #FFF**
+
+5. Create an image infowindow using the **POP-UP** settings in the image below. You can drag and drop the selected items so **photo** is at the top. 
+![popup.png](img/popup.png)
+
+6. Next, to activate the link, let's toggle from **VALUES** to **HTML**
+
+7. Now let's set up an html link to the market website in the **infoWindow**. Let's change line 21 from this:
+
+		<h4 class="CDB-infowindow-title">{{website}}</h4>
+      
+	To this:   
+
+		<h4 class="CDB-infowindow-title"><a href="{{website}}" target='_blank'>{{market}} website</a></h4>
+	
+8. Add two **Widgets** one for **City** and one for **State**. 
+	
+9. Publish your map and get your link. 	
+	
+10. Your Completed Map should look something like this: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/)
 
 
 #### Second Avenue Subway Map
