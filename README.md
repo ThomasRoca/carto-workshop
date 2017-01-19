@@ -259,7 +259,7 @@ Set color to black.
 
 <br>
 
-## Skanks Torque Map - RunKeeper Data
+## Skanska Torque Map - RunKeeper Data
 <a name="torque"></a>
 ![](img/runkeeper.png)
 
