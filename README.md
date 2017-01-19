@@ -32,13 +32,19 @@ Tenative schedule of tasks/talks, subject to change/update.
 			* Formula
 			* Time-Series
 	* 1:15 pm - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1EmuckitxKQFw0vrmoMa0rGk5cCtAEZ_hUFSl0WF9QTQ/edit)
+	* 1:22 pm - [Carto Docs](https://carto.com/docs)
 	* 1:30 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
 	* 1:50 pm - short 10 minute coffee break 
 * 2:00 pm - [Making a Skanska Markets Map](#skanska_markets)
 	* 2:30 pm - [Making a Second Ave Subway Map](#second_ave_subway)
 * 3:00 pm - [Making a Skanska NYC Projects Map](#nyc_projects)
 	* 3:45 pm - Questions, closing remarks and brainstorming about next steps/project ideas.
-
+	* 3: 55 pm - Where do I find data???
+		* [NYC Open Data](https://nycopendata.socrata.com/)
+		* [NYS Open Data](https://data.ny.gov/)
+		* Search w/ `GIS`, `Shapefile`, etc.
+		* Plus many many more websites which are only a Google search away. Always give yourself ample time for data aquisition and data preparation.
+	
 If we move very quickly. Here are some **additional exercises** we can work on:
 
 * [Styling Maps: Vintage Map of Africa with CartoCSS](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/03-cartography/exercises/africa.md)
@@ -68,6 +74,7 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 
 * [**Map Academy** courses](https://academy.cartodb.com/).
 * [**Tutorials**](https://docs.cartodb.com/tutorials/).
+* [Carto Docs](https://carto.com/docs)
 * [Other online resources](https://github.com/ramiroaznar/intro-cartodb).
 
 #### Further questions and troubleshooting
@@ -75,18 +82,14 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 * Email to **support@carto.com**.
 * Some questions could be already answered at **[GIS Stack Exchange](http://gis.stackexchange.com/questions/tagged/carto)** `carto` tag.
 
-# Skanska-Specific Training Materials
+# Skanska-Specific Training 
 
 
-
----
-
-#### Skanksa-specific Maps/Training
 * [Making a Skanska Markets Map](#skanska_markets)
 * [Making a Second Ave Subway Map](#second_ave_subway)
 * [Making a Skanska NYC Projects Map](#nyc_projects)
 
-#### Skanksa Markets Map
+## Skanksa Markets Map
 <a name="skanska_markets_map"></a>
 
 1. Download the [Skanska Markets dataset](https://team.carto.com/u/sheehan-carto/tables/skanska_markets/public?redirected=true) as a CSV. This data is from [http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/](http://www.usa.skanska.com/About-Skanska/Our-geographic-markets/).
@@ -117,16 +120,171 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 10. Your Completed Map should look something like this: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/)
 
 
-#### Second Avenue Subway Map
+## Second Avenue Subway Map
 <a name="second_ave_subway"></a>
+We're going to create this [2nd Avenue Subway 2017 Projected Ridership Change Map](https://team.carto.com/u/sheehan-carto/builder/6a451d3c-ddcc-11e6-84aa-0ecd1babdde5/embed)
+
+1. Download these two data layers and drag into your Carto account
+	* [NYC Subway Routes](https://team.carto.com/u/sheehan-carto/tables/nyctsubwayroutes_20170119_2nd_ave_q/public?redirected=true)
+	* [NYC Subway Stations Ridership](https://team.carto.com/u/sheehan-carto/dataset/subway_stations_ridership_2010_2015_proj_2017)
+
+
+2. Set NYC Subway Basemap as XYZ service
+viz.json: [https://nygeog.carto.com/api/v2/viz/aa54897a-a187-46ca-a900-792be6c56388/viz.json](https://nygeog.carto.com/api/v2/viz/aa54897a-a187-46ca-a900-792be6c56388/viz.json)
+
+	* Find TPL
+	`tpl_aa54897a_a187_46ca_a900_792be6c56388`
+
+	* XYZ Map url template
+	`http://nygeog.carto.com/api/v1/map/named/<INSERT_TPL_HERE>/all/{z}/{x}/{y}.png`
+	
+	* Completed XYZ Map url:
+`http://nygeog.carto.com/api/v1/map/named/tpl_aa54897a_a187_46ca_a900_792be6c56388/all/{z}/{x}/{y}.png`
+
+3.  Add Layers
+	* `subway_stations_ridership_2010_2015_proj_2017` to your map 3 times (3x)
+	* `nyctsubwayroutes_20170119_2nd_ave_q`
+
+
+4. 2017 Weekday Average Ridership (Projected) SQL
+
+		SELECT * FROM "sheehan-carto".subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 OR secondave = 1
+
+5. 2015 Weekday Average Ridership SQL
+
+		SELECT * FROM "sheehan-carto".subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 
+	
+6. Subway Stations Background Style
+Set color to black.	
+
+
+7. [MTA Color Guides](http://web.mta.info/developers/resources/line_colors.htm)
+
+8. NYC Subway Line CartoCSS Style
+
+		#layer {
+		  line-width: 3;
+		  line-color: ramp([route_id], (#0039A6, #0039A6, #FF6319, #6CBE45, #A7A9AC, #808183, #996633, #FCCC0A, #FCCC0A, #FF6319, #EE352E, #FF6319, #EE352E, #EE352E, #00933C, #FCCC0A, #FF6319, #0039A6, #00933C, #00933C, #B933AD, #00A1DE, #666666), ("C","A","D","G","L", "S", "Z", "Q", "R", "F", "3", "M", "1", "2", "6", "N", "B", "E", "5", "4", "7", "Air"), "=");
+		}
+		
+		#layer[route_id='B']{
+		    line-offset: -2.0;
+		  }
+		#layer[route_id='M']{
+		    line-offset: -2.0;
+		  }
+		#layer[route_id='F']{
+		    line-offset: -2.0;
+		  }
+		#layer[route_id='D']{
+		    line-offset: -2.0;
+		  }
+		
+		#layer[route_id='1']{
+		    line-offset: -2.0;
+		  }
+		#layer[route_id='2']{
+		    line-offset: -2.0;
+		  }
+		#layer[route_id='3']{
+		    line-offset: -2.0;
+		  }
+		
+		#layer[route_id='A']{
+		    line-offset: 2.0;
+		  }
+		#layer[route_id='C']{
+		    line-offset: 2.0;
+		  }
+		#layer[route_id='E']{
+		    line-offset: 2.0;
+		  }
+
+9. 2017 Weekday Average Ridership (Projected) Style
+
+		#layer {
+		  marker-width: ramp([wkd_17_e], range(5, 35), quantiles(10));
+		  marker-fill: #EE352E;
+		  marker-fill-opacity: 1;
+		  marker-allow-overlap: true;
+		  marker-line-width: 1;
+		  marker-line-color: #FFF;
+		  marker-line-opacity: 1;
+		}
+
+10. 2015 Weekday Average Ridership Style
+
+		#layer {
+		  marker-width: ramp([wkd_15], range(5, 50), quantiles(10));
+		  marker-fill: #0039A6;
+		  marker-fill-opacity: 1;
+		  marker-allow-overlap: true;
+		  marker-line-width: 1;
+		  marker-line-color: #FFF;
+		  marker-line-opacity: 1;
+		}
 
 ---
 
-#### Skanska NYC Projects Map
+## Skanska NYC Projects Map
 <a name="nyc_projects"></a>
 
 <br>
 
+## Skanks Torque Map - RunKeeper Data
+1. [Download these **RunKeeper** points](https://dms2203.carto.com/tables/runkeeper_points) and add as layer 2 times.
+
+2. Change Basemap to Satellite Imagery
+
+3. **SQL Statement to select date range**
+
+		SELECT * FROM runkeeper_points 
+		WHERE time > '06/29/2015' AND time <= '06/30/2015' 
+
+4. Style for Animated Layer
+
+		/** torque visualization */
+		
+		Map {
+		-torque-frame-count:1024;
+		-torque-animation-duration:45;
+		-torque-time-attribute:"time";
+		-torque-aggregation-function:"count(cartodb_id)";
+		-torque-resolution:1;
+		-torque-data-aggregation:cumulative;
+		}
+		
+		#runkeeper_points{
+		  comp-op: lighter;
+		  marker-fill-opacity: 0.9;
+		  marker-line-color: #FFF;
+		  marker-line-width: 0;
+		  marker-line-opacity: 1;
+		  marker-type: ellipse;
+		  marker-width: 6;
+		  marker-fill: #FF2900;
+		}
+		#runkeeper_points[frame-offset=1] {
+		 marker-width:8;
+		 marker-fill-opacity:0.45; 
+		}
+
+5. Style for Background Layer
+
+		/** simple visualization */
+	
+		#runkeeper_points{
+		  marker-fill-opacity: 0.2;
+		  marker-line-color: #000000;
+		  marker-line-width: 1;
+		  marker-line-opacity: 1;
+		  marker-placement: point;
+		  marker-type: ellipse;
+		  marker-width: 10;
+		  marker-fill: #778899;
+		  marker-allow-overlap: true;
+		  marker-comp-op: darken;
+		}
 
 <a name="complete"></a>
 CARTO complete Training Course
