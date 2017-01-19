@@ -151,11 +151,11 @@ viz.json: [https://nygeog.carto.com/api/v2/viz/aa54897a-a187-46ca-a900-792be6c56
 
 4. 2017 Weekday Average Ridership (Projected) SQL
 
-		SELECT * FROM "sheehan-carto".subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 OR secondave = 1
+		SELECT * FROM subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 OR secondave = 1
 
 5. 2015 Weekday Average Ridership SQL
 
-		SELECT * FROM "sheehan-carto".subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 
+		SELECT * FROM subway_stations_ridership_2010_2015_proj_2017 WHERE lexington = 1 
 	
 6. Subway Stations Background Style
 Set color to black.	
