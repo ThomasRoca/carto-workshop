@@ -14,10 +14,10 @@ You can also find the complete [training course below](#complete).
 ### Training Schedule
 Tenative schedule of tasks/talks, subject to change/update.
 
-* 12:00 pm - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
-	* 12:15 pm - [Introduction to Web Mapping/GIS | Skanska](https://docs.google.com/presentation/d/1BG9Ms_9ZdgYtx4yf6928kxRnRncxOY6VvCruqRGQUM0/edit?usp=sharing)
-	* 12:40 pm - [Introduction to CARTO | Skanska](https://docs.google.com/presentation/d/1HgPzTxQJI5itQxpznHaBQ9reaKTgBi9MXDkYZQMPl7w/edit?usp=sharing)
-* 1:00 pm - Shaking Hands with CARTO, a quick tour of the platform, 
+* **12:00 pm** - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
+* 12:15 pm - [Introduction to Web Mapping/GIS | Skanska](https://docs.google.com/presentation/d/1BG9Ms_9ZdgYtx4yf6928kxRnRncxOY6VvCruqRGQUM0/edit?usp=sharing)
+* 12:40 pm - [Introduction to CARTO | Skanska](https://docs.google.com/presentation/d/1HgPzTxQJI5itQxpznHaBQ9reaKTgBi9MXDkYZQMPl7w/edit?usp=sharing)
+* **1:00 pm** - Shaking Hands with CARTO, a quick tour of the platform, 
 	* Maps/Datasets view, 
 	* Inside a CARTO Map 
 		* Layers
@@ -31,19 +31,20 @@ Tenative schedule of tasks/talks, subject to change/update.
 			* Histogram
 			* Formula
 			* Time-Series
-	* 1:15 pm - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1EmuckitxKQFw0vrmoMa0rGk5cCtAEZ_hUFSl0WF9QTQ/edit)
-	* 1:22 pm - [Carto Docs](https://carto.com/docs)
-	* 1:30 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
-	* 1:50 pm - short 10 minute coffee break 
-* 2:00 pm - [Making a Skanska Markets Map](#skanska_markets)
-	* 2:30 pm - [Making a Second Ave Subway Map](#second_ave_subway)
-* 3:00 pm - [Making a Skanska NYC Projects Map](#nyc_projects)
-	* 3:45 pm - Questions, closing remarks and brainstorming about next steps/project ideas.
-	* 3: 55 pm - Where do I find data???
-		* [NYC Open Data](https://nycopendata.socrata.com/)
-		* [NYS Open Data](https://data.ny.gov/)
-		* Search w/ `GIS`, `Shapefile`, etc.
-		* Plus many many more websites which are only a Google search away. Always give yourself ample time for data aquisition and data preparation.
+* 1:15 pm - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1EmuckitxKQFw0vrmoMa0rGk5cCtAEZ_hUFSl0WF9QTQ/edit)
+* 1:22 pm - [Carto Docs](https://carto.com/docs)
+* 1:30 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
+* 1:50 pm - short 10 minute coffee break 
+* **2:00** pm - [Making a Skanska Markets Map](#skanska_markets)
+* 2:30 pm - [Making a Second Ave Subway Map](#second_ave_subway)
+* **3:00 pm** - [Making a Torque Map](#torque)
+* 3:15 pm - [Making a Skanska NYC Projects Map](#nyc_projects)
+* 3:45 pm - Questions, closing remarks and brainstorming about next steps/project ideas.
+* 3:55 pm - Where do I find data???
+	* [NYC Open Data](https://nycopendata.socrata.com/)
+	* [NYS Open Data](https://data.ny.gov/)
+	* Search w/ `GIS`, `Shapefile`, etc.
+	* Plus many many more websites which are only a Google search away. Always give yourself ample time for data aquisition and data preparation.
 	
 If we move very quickly. Here are some **additional exercises** we can work on:
 
@@ -84,10 +85,10 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 
 # Skanska-Specific Training 
 
-
 * [Making a Skanska Markets Map](#skanska_markets)
 * [Making a Second Ave Subway Map](#second_ave_subway)
 * [Making a Skanska NYC Projects Map](#nyc_projects)
+* [Making a Torque Map](#torque)
 
 ## Skanksa Markets Map
 <a name="skanska_markets_map"></a>
@@ -223,6 +224,8 @@ Set color to black.
 		  marker-line-color: #FFF;
 		  marker-line-opacity: 1;
 		}
+		
+11. Advanced - [Rotate the Map w/ `ST_ROTATE`](https://team.carto.com/u/sheehan-carto/builder/081f09b2-dcc1-11e6-b47d-0e3ebc282e83/embed)	
 
 ---
 
@@ -232,6 +235,7 @@ Set color to black.
 <br>
 
 ## Skanks Torque Map - RunKeeper Data
+<a name="torque"></a>
 1. [Download these **RunKeeper** points](https://dms2203.carto.com/tables/runkeeper_points) and add as layer 2 times.
 
 2. Change Basemap to Satellite Imagery
