@@ -122,6 +122,7 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 
 
 ## Second Avenue Subway Map
+![](img/subway.png)
 <a name="second_ave_subway"></a>
 We're going to create this [2nd Avenue Subway 2017 Projected Ridership Change Map](https://team.carto.com/u/sheehan-carto/builder/6a451d3c-ddcc-11e6-84aa-0ecd1babdde5/embed)
 
@@ -231,6 +232,7 @@ Set color to black.
 
 ## Skanska NYC Projects Map
 <a name="nyc_projects"></a>
+![](img/nyc_projects.png)
 
 1. [Download a HERE geocoded version of the Skanska NYC Projects](https://team.carto.com/u/sheehan-carto/dataset/metro_ny_active_project_list_clean_here) and add to your account. 
 
@@ -258,6 +260,8 @@ Set color to black.
 
 ## Skanks Torque Map - RunKeeper Data
 <a name="torque"></a>
+![](img/runkeeper.png)
+
 1. [Download these **RunKeeper** points](https://dms2203.carto.com/tables/runkeeper_points) and add as layer 2 times.
 
 2. Change Basemap to Satellite Imagery
