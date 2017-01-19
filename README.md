@@ -118,12 +118,13 @@ This session focuses on the advanced use of BUILDER, creating cartographic rules
 	
 9. Publish your map and get your link. 	
 	
-10. Your Completed Map should look something like this: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/)
+10. Your Completed Map should look something like this: [https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/embed](https://team.carto.com/u/sheehan-carto/builder/e72b9e4a-d9b0-11e6-9745-0e05a8b3e3d7/embed)
 
 
 ## Second Avenue Subway Map
-![](img/subway.png)
 <a name="second_ave_subway"></a>
+![](img/subway.png)
+
 We're going to create this [2nd Avenue Subway 2017 Projected Ridership Change Map](https://team.carto.com/u/sheehan-carto/builder/6a451d3c-ddcc-11e6-84aa-0ecd1babdde5/embed)
 
 1. Download these two data layers and drag into your Carto account
