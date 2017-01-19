@@ -232,6 +232,28 @@ Set color to black.
 ## Skanska NYC Projects Map
 <a name="nyc_projects"></a>
 
+1. [Download a HERE geocoded version of the Skanska NYC Projects](https://team.carto.com/u/sheehan-carto/dataset/metro_ny_active_project_list_clean_here) and add to your account. 
+
+2. Style the points to **Fill Size 12**, and with **Skanska** hex color: `#263F6C` (_note may not be official hex value_), and **Stroke Size 1.5 stroke** with **color #FFF**
+
+3. Change the Basemap to **Dark matter (labels below)**
+
+4. Set Pop-up Window to all items.
+
+5. Add Widgets for:
+	* point count (formula)
+	* project_no (category)
+	* project_name (category)
+	* customer_name (category)
+	* account_manager (category)
+	* project_manager (category)
+	* project_accountant (category)
+
+6. Rename Widgets with capitalization and remove underscores.
+
+7. Compare to [Skanska NYC Projects Map](https://team.carto.com/u/sheehan-carto/builder/8953430a-de55-11e6-bcb5-0e233c30368f/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B40.505968368969036%2C-74.33624267578125%5D%2C%22sw%22%3A%5B40.87873731327488%2C-73.61732482910156%5D%7D%7D)
+
+
 <br>
 
 ## Skanks Torque Map - RunKeeper Data
