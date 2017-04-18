@@ -57,7 +57,7 @@ Export as Shapefile:
 #### Static Maps API example	
 
 	https://cartocdn-ashbu.global.ssl.fastly.net/nygeog/api/v1/map/static/named/tpl_2034a658_8fe9_11e6_9bbb_0e233c30368f/600/300.png	
-	
+![staticmaps](https://cartocdn-ashbu.global.ssl.fastly.net/nygeog/api/v1/map/static/named/tpl_2034a658_8fe9_11e6_9bbb_0e233c30368f/600/300.png)	
 	
 	
 	
