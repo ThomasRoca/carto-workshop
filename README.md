@@ -32,9 +32,9 @@ Tenative schedule of tasks/talks, subject to change/update.
 			* Histogram
 			* Formula
 			* Time-Series
-* **1:20** pm - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1Eki8nndjQvaGldPWwSoAh561JgUoCqI1bB_93TNHW_k/edit?usp=sharing)
-* 1:30 pm - [Carto Docs](https://carto.com/docs)
-* 1:30 pm - [Exercise: San Francisco tree map](01-builder-visualization/exercises/sf-trees.md)
+* **1:20 pm** - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1Eki8nndjQvaGldPWwSoAh561JgUoCqI1bB_93TNHW_k/edit?usp=sharing)
+* **1:30 pm** - [Carto Docs](https://carto.com/docs)
+* **1:35 pm** - [Exercise: San Francisco tree map](01-builder-visualization/exercises/sf-trees.md)
 
 * 1:30 pm - [Carto Deep Technical Dive](https://docs.google.com/presentation/d/1-gfFWpen7hXKy3Jk-AuaQUdbJyTxCOjVz6SgOHClFkk/edit?usp=sharing)
 	
