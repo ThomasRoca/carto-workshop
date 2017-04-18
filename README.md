@@ -36,7 +36,30 @@ Tenative schedule of tasks/talks, subject to change/update.
 * **1:30 pm** - [Carto Docs](https://carto.com/docs)
 * **1:35 pm** - [Exercise: San Francisco tree map](01-builder-visualization/exercises/sf-trees.md)
 
-* 1:30 pm - [Carto Deep Technical Dive](https://docs.google.com/presentation/d/1-gfFWpen7hXKy3Jk-AuaQUdbJyTxCOjVz6SgOHClFkk/edit?usp=sharing)
+* **1:50 pm** - [Dive into API's](https://docs.google.com/presentation/d/1-gfFWpen7hXKy3Jk-AuaQUdbJyTxCOjVz6SgOHClFkk/edit#slide=id.g157539adf3_0_111)
+	
+### API examples:	
+##### SQL API:
+		
+Select *
+	
+	https://ashleysimcox.carto.com/api/v2/sql?q=SELECT * FROM ny_boroughs
+
+Get count rows:
+
+	https://ashleysimcox.carto.com/api/v2/sql?q=SELECT count(*) FROM ny_boroughs	
+	
+Export as Shapefile:
+	
+	http://ashleysimcox.cartodb.com/api/v2/sql?q=SELECT * FROM ny_boroughs	&format=shp	
+	
+	
+#### Static Maps API example	
+
+	https://cartocdn-ashbu.global.ssl.fastly.net/nygeog/api/v1/map/static/named/tpl_2034a658_8fe9_11e6_9bbb_0e233c30368f/600/300.png	
+	
+	
+	
 	
 If we move very quickly. Here are some **additional exercises** we can work on:
 
