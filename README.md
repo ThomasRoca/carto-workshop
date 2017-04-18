@@ -16,7 +16,7 @@ Tenative schedule of tasks/talks, subject to change/update.
 
 # HERE -- 
 
-* **12:00 pm** - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
+* **1:00 pm** - [Introduction to CARTO](https://github.com/CartoDB/carto-workshop/tree/170119-912-skanska/00-intro-carto)
 * 12:15 pm - [Introduction to Web Mapping/GIS | Skanska](https://docs.google.com/presentation/d/1BG9Ms_9ZdgYtx4yf6928kxRnRncxOY6VvCruqRGQUM0/edit?usp=sharing)
 * 12:40 pm - [Introduction to CARTO | Skanska](https://docs.google.com/presentation/d/1HgPzTxQJI5itQxpznHaBQ9reaKTgBi9MXDkYZQMPl7w/edit?usp=sharing)
 * **1:00 pm** - Shaking Hands with CARTO, a quick tour of the platform, 
