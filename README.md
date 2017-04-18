@@ -41,14 +41,19 @@ Tenative schedule of tasks/talks, subject to change/update.
 ### API examples:	
 ##### SQL API:
 		
-Select *
+Select * example:
 	
 	https://ashleysimcox.carto.com/api/v2/sql?q=SELECT * FROM ny_boroughs
+	
+_Poly's with lot's of vertices means big `the_geom` field_
 
 Get count rows:
 
 	https://ashleysimcox.carto.com/api/v2/sql?q=SELECT count(*) FROM ny_boroughs	
 	
+Get column names:
+
+	http://sheehan-carto.carto.com/api/v2/sql?q=SELECT column_name FROM information_schema.columns WHERE table_name ='rk_gpx_2017_04_17_1810';&api_key=API_KEY	
 Export as Shapefile:
 	
 	http://ashleysimcox.cartodb.com/api/v2/sql?q=SELECT * FROM ny_boroughs	&format=shp	
@@ -58,8 +63,16 @@ Export as Shapefile:
 
 	https://cartocdn-ashbu.global.ssl.fastly.net/nygeog/api/v1/map/static/named/tpl_2034a658_8fe9_11e6_9bbb_0e233c30368f/600/300.png	
 ![staticmaps](https://cartocdn-ashbu.global.ssl.fastly.net/nygeog/api/v1/map/static/named/tpl_2034a658_8fe9_11e6_9bbb_0e233c30368f/600/300.png)	
+
+#### Data Observatory Stuff
+
+* OBS Walkthrough for Solution Summit - [https://gist.github.com/talos/3ab67ff70b0e149a0508148960a26150#using-api](https://gist.github.com/talos/3ab67ff70b0e149a0508148960a26150#using-api)
+
+* Data Observatory Functions - to add to your Carto account - [https://gist.github.com/talos/50000ed856eb688c66b10d1054a9bcc6/](https://gist.github.com/talos/50000ed856eb688c66b10d1054a9bcc6/)
 	
-	
+#### D3 and Carto
+
+* [Azavea Blog Post](https://www.azavea.com/blog/2016/09/26/building-interactive-d3-dashboards-with-carto-web-maps/)	
 	
 If we move very quickly. Here are some **additional exercises** we can work on:
 
