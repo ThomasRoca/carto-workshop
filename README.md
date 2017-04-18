@@ -34,14 +34,14 @@ Tenative schedule of tasks/talks, subject to change/update.
 			* Time-Series
 * **1:20** pm - [CARTO Builder Analysis Tools](https://docs.google.com/document/d/1Eki8nndjQvaGldPWwSoAh561JgUoCqI1bB_93TNHW_k/edit?usp=sharing)
 * 1:30 pm - [Carto Docs](https://carto.com/docs)
-* 1:30 pm - [Exercise: San Francisco tree map](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/01-builder-visualization/exercises/sf-trees.md)
+* 1:30 pm - [Exercise: San Francisco tree map](01-builder-visualization/exercises/sf-trees.md)
 
 * 1:30 pm - [Carto Deep Technical Dive](https://docs.google.com/presentation/d/1-gfFWpen7hXKy3Jk-AuaQUdbJyTxCOjVz6SgOHClFkk/edit?usp=sharing)
 	
 If we move very quickly. Here are some **additional exercises** we can work on:
 
-* [Styling Maps: Vintage Map of Africa with CartoCSS](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/03-cartography/exercises/africa.md)
-* [Market Analysis (Dominos Pizza) Demo](https://github.com/CartoDB/carto-workshop/blob/170119-912-skanska/02-builder-analysis/exercises/dominos.md)
+* [Styling Maps: Vintage Map of Africa with CartoCSS](03-cartography/exercises/africa.md)
+* [Market Analysis (Dominos Pizza) Demo](02-builder-analysis/exercises/dominos.md)
 
 
 # CARTO Course Materials
