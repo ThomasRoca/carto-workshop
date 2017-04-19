@@ -66,6 +66,8 @@ Export as Shapefile:
 
 #### Data Observatory Stuff
 
+* Observatory Solutions Presentation - [https://docs.google.com/presentation/d/1NA0P-bKORspCZHKfij2v-UGZRVIyQR-RLwf5AB3dRY0/edit#slide=id.g1b3b49242c_0_17](https://docs.google.com/presentation/d/1NA0P-bKORspCZHKfij2v-UGZRVIyQR-RLwf5AB3dRY0/edit#slide=id.g1b3b49242c_0_17)
+
 * OBS Walkthrough for Solution Summit - [https://gist.github.com/talos/3ab67ff70b0e149a0508148960a26150#using-api](https://gist.github.com/talos/3ab67ff70b0e149a0508148960a26150#using-api)
 
 * Data Observatory Functions - to add to your Carto account - [https://gist.github.com/talos/50000ed856eb688c66b10d1054a9bcc6/](https://gist.github.com/talos/50000ed856eb688c66b10d1054a9bcc6/)
